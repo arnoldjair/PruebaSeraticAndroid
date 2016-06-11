@@ -20,7 +20,7 @@ public class MainActivity extends FragmentActivity {
         this.pager = (ViewPager) this.findViewById(R.id.pager);
 
         PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(SlideFragment.newInstance(0, "WIFI"));
+        //adapter.addFragment(SlideFragment.newInstance(0, "WIFI"));
         adapter.addFragment(SlideFragment.newInstance(1, "Ciudades"));
         this.pager.setAdapter(adapter);
 
